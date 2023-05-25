@@ -165,7 +165,21 @@ nav {
     padding: 20px;
 }
 
-
+.createAcntBtn{
+    background: #EB459E;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    border: black 2px solid;
+    border-radius: 50px;
+}
 
 
 
@@ -207,10 +221,49 @@ nav {
     }
     .feature-image img{
         height: 100px;
+        width: 100%;
+        padding: 0;
     }
     .feature-description {
         max-width: 100%;
         text-align: justify;
     }
+    .createAcntBtn{
+        width: 100%;
+    }
 
 }
+
+form {
+    background-color: black ;
+    border: white 2px solid;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.tos{
+    margin-bottom: 10px;
+}
+
+.email-input {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+   
+}
+
+.email-input label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email-input input {
+    padding: 10px;
+    margin-left: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
