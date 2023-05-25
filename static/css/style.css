@@ -135,6 +135,50 @@ nav {
     padding: 50px;
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding: 50px;
+}
+
+.aboutDescription{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    width: 70%;
+    font-size: larger;
+}
+
+.aboutImage{
+    height: 200px;
+    background-color: #5865F2;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+.metrics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.metrices{
+    display: flex;
+    gap: 20px;
+}
+
+.metricsCard{
+    height: 90px;
+    background-color: #5865f1;
+    border-radius: 9px;
+    padding: 40px;
+
+}
+
 .description {
     max-width: 50%;
     font-size: x-large;
