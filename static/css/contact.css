@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .email-input {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .email-input input {
+        max-width: 100%;
+        
+    }
+}
